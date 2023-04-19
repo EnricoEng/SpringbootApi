@@ -4,8 +4,10 @@ package Springboot.api.Pessoa;
 import java.util.Date;
 
 public class Pessoa {
+    private Long id;
     private String nome;
     private Date dataNascimento;
+    private Endereco endereco;
 
 
      
